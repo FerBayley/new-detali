@@ -51,12 +51,40 @@
 		<h2>Formas de pago</h2>
 	</section> <!-- End of Cuerpo -->
 
+	<section class="Cont-pagos">
+		<article>
+			<p>
+				<strong>Los métodos de pago son simples, ud. puede abonar en efectivo o bien con 
+						tarjeta de crédito.
+				</strong>
+			</p>
 
-	<section class="Contenido">
-		contenido
-	</section> <!-- End of Contenido -->
+			<p>
+				La consulta o pedidos desde la web no implica la compra del mismo. Al hacer una 
+				consulta sobre un producto nos pondremos en contacto con Ud. para concretar la visita 
+				de un vendedor. Una vez conforme con su producto, puede pautar la forma de pago con 
+				el vendedor.
+			</p>
+
+			<p>
+				Ahora también nos encontramos adheridos al programa Ahora12 por el cual puede 
+				abonar sus compras en 12 cuotas sin interés.
+			</p>
+
+			<p>
+				E-mail: <a href="mailto:sastreria@detali.com.ar">sastreria@detali.com.ar</a>
+				<br>
+				Tel: 15 6 692 5770 | 15 3 295 6854
+			</p>
+		</article>
+	</section> <!-- End of Cont-pagos -->
 
 	<section class="Pie">
+		
+		<div class="Ahora12">
+			<img src="img/12.jpg" alt="">
+		</div> <!-- End of Ahora12 -->
+
 		<div class="Tarjetas">
 			<img src="img/tarjetas.jpg" alt="">
 		</div> <!-- End of Tarjetas -->
