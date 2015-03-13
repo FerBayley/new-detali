@@ -3,6 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Camisas - Detali Sastreria Italiana</title>
+	
+	<!-- VIEWPORT -->
+	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<!-- VIEWPORT -->
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/normalize.css" />

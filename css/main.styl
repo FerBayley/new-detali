@@ -33,7 +33,7 @@ footer
 h1
 	margin 0
 	padding 0
-	
+/* *********************** RWD INDEX ********************** */	
 nav
 	height auto
 	padding .3em 0 .3em .5em
@@ -46,7 +46,111 @@ nav
 		a
 			color negro
 			text-decoration none
-			
+@media screen and (min-width: 0px) and (max-width: 319px)	
+	nav
+		margin 0
+		padding 0
+		ul li
+			border-bottom solid 1px grey
+			display block
+			line-height 26px
+			padding .2em 0 .2em .5em	
+	.Contenido-principal
+		.Columna-menu 
+			margin 0
+			padding 0
+			padding-bottom 4em
+			height auto
+			opacity .8
+			width 80%
+			ul li
+				font-size 1.1em
+				text-align left
+	.Redes
+		background violeta
+		padding .7em 0 .5em 0
+		text-align center
+		ul
+			text-align center				
+	footer
+		text-align center	
+
+@media screen and (min-width: 320px) and (max-width: 479px)
+	*
+		margin 0
+		padding 0
+	nav
+		margin 0
+		padding 0
+		ul li
+			border-bottom solid 1px grey
+			display block
+			line-height 26px
+			padding .2em 0 .2em .5em	
+	.Contenido-principal
+		margin 0
+		padding 0
+		.Columna-menu 
+			margin 0
+			padding 0
+			padding-bottom 4em
+			height auto
+			opacity .8
+			width 80%
+			ul li
+				font-size 1.1em
+				text-align left
+	.Redes
+		background violeta
+		padding .7em 0 .5em 0
+		text-align center
+		ul
+			text-align center				
+	footer
+		text-align center			
+		
+@media screen and (min-width: 480px) and (max-width: 759px) 
+	body
+		background red
+	.Contenido-principal
+		margin 0
+		padding 0
+		.Columna-menu 
+			margin 0
+			padding 0
+			padding-bottom 4em
+			margin 0 0 0 1em
+			height auto
+			opacity .8
+			width 30%
+			ul li
+				font-size 1em
+				text-align left
+	.Redes
+		margin 2em 0 0 0 
+		padding .7em 0 .5em 0
+		text-align center
+		ul
+			text-align center				
+	footer
+		text-align center	
+		
+@media screen and (min-width: 760px) and (max-width: 1019px)
+	body
+		background lime
+	.Contenido-principal
+		.Columna-menu 
+			margin 0
+			padding 0
+			padding-bottom 4em
+			margin 0 0 0 1em
+			height auto
+			opacity .8
+			width 20%
+			ul li
+				text-align left
+		
+/* *********************** RWD INDEX ********************** */	
 
 .Columna-menu
 	background negro

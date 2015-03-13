@@ -4,6 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Detali Sastreria Italiana</title>
 
+	<!-- VIEWPORT -->
+	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<!-- VIEWPORT -->
+
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/main.css" />
@@ -21,20 +25,12 @@
 				<li><a href="#">A MEDIDA</a></li>
 				<li><a href="#">QUIEN SOY</a></li>
 				<li><a href="#">FORMAS DE PAGO</a></li>
-				<li><a href="#">CONTACTO</a></li>
 			</ul>
 		</nav> <!-- End of Nav -->
 	</header> <!-- End of Header -->
 
-
-
 	<section class="Contenido-principal">	
 		<section class="Columna-menu">
-			<h1>
-				<a href="#">
-				</a>
-			</h1>
-
 			<ul>
 				<li><img src="img/logo.png" alt="Detali Sastreria Italiana"></li>
 				<li><a href="#">TRAJES</a></li>
