@@ -3,6 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Trajes - Ambos - Detali Sastreria Italiana</title>
+	<meta name="description" content="">
+
+	<!-- VIEWPORT -->
+	<meta name="viewport" content="width=device-width, user-scalable=no"/>
+	<!-- VIEWPORT -->
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/normalize.css" />
@@ -21,7 +26,6 @@
 				<li><a href="#">A MEDIDA</a></li>
 				<li><a href="#">QUIEN SOY</a></li>
 				<li><a href="#">FORMAS DE PAGO</a></li>
-				<li><a href="#">CONTACTO</a></li>
 			</ul>
 		</nav> <!-- End of Nav -->
 	</header> <!-- End of Header -->
@@ -125,13 +129,38 @@
 
 		<div class="Redes-pie">
 			<ul>
-				<li><a href=""><img src="img/facebook-interna.png" alt=""></a></li>
-				<li><a href=""><img src="img/twitter-interna.png" alt=""></a></li>
-				<li><a href=""><img src="img/pinterest-interna.png" alt=""></a></li>
-				<li><a href=""><img src="img/instagram-interna.png" alt=""></a></li>
+				<li>
+					<a href="">
+						<img src="img/facebook-interna.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="img/twitter-interna.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="img/pinterest-interna.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="img/instagram-interna.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="img/google-c.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="img/linkedin-c.png" alt="">
+					</a>
+				</li>
 			</ul>
 		</div> <!-- End of Redes-pie -->
-
 		<div class="Info">
 			<p>
 				Derechos reservados 2015  -  Av Roque Saenz Peña 615  -  Piso 5 Oficinas 512 - 

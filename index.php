@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Detali Sastreria Italiana</title>
+	<meta name="description" content="">
 
 	<!-- VIEWPORT -->
 	<meta name="viewport" content="width=device-width, user-scalable=no"/>
@@ -45,10 +46,28 @@
 
 		<section class="Redes">
 			<ul>
-				<li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
-				<li><a href="#"><img src="img/twitter.png" alt="Seguinos en Twitter"></a></li>
-				<li><a href="#"><img src="img/pinterest.png" alt="Mira nuestras imagenes en Pinterest"></a></li>
-				<li><a href="#"><img src="img/instagram.png" alt="Instagram"></a></li>
+				<li>
+					<a href="https://www.facebook.com/SastreriaDetali">
+						<img src="img/facebook.png" alt="Facebook">
+					</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/DetaliSastreria">
+						<img src="img/twitter.png" alt="Seguinos en Twitter">
+					</a>
+				</li>
+				<li>
+					<a href="https://www.pinterest.com/detali">
+						<img src="img/pinterest.png" alt="Mira nuestras imagenes en Pinterest">
+					</a>
+				</li>
+				<li>
+					<a href="https://instagram.com/detalisastreria/">
+						<img src="img/instagram.png" alt="Instagram">
+					</a>
+				</li>
+				<li><a href="#"><img src="img/google-a.png" alt="Google plus"></a></li>
+				<li><a href="#"><img src="img/linkedin.png" alt="Linkedin"></a></li>
 			</ul>
 		</section> <!-- End of Redes -->
 

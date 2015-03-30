@@ -46,6 +46,9 @@ nav
 		a
 			color negro
 			text-decoration none
+		a:hover
+			color grey
+			text-decoration underline
 @media screen and (min-width: 0px) and (max-width: 319px)	
 	nav
 		margin 0
@@ -88,8 +91,6 @@ nav
 			line-height 26px
 			padding .2em 0 .2em .5em	
 	.Contenido-principal
-		margin 0
-		padding 0
 		.Columna-menu 
 			margin 0
 			padding 0
@@ -110,11 +111,7 @@ nav
 		text-align center			
 		
 @media screen and (min-width: 480px) and (max-width: 759px) 
-	body
-		background red
 	.Contenido-principal
-		margin 0
-		padding 0
 		.Columna-menu 
 			margin 0
 			padding 0
@@ -137,7 +134,7 @@ nav
 		
 @media screen and (min-width: 760px) and (max-width: 1019px)
 	body
-		background lime
+		background red
 	.Contenido-principal
 		.Columna-menu 
 			margin 0
@@ -148,8 +145,7 @@ nav
 			opacity .8
 			width 20%
 			ul li
-				text-align left
-		
+				text-align left		
 /* *********************** RWD INDEX ********************** */	
 
 .Columna-menu
@@ -170,19 +166,35 @@ nav
 			img
 				margin 1em 0 0 0
 			a
+				border-radius 3px
+				-webkit-border-radius 3px
+				-moz-border-radius 3px
+				-o-border-radius 3px
+				-ms-border-radius 3px
 				color blanco
 				text-decoration none
+				padding .2em .3em .2em .3em
+				webkit-transition all 0.5s ease
+				-moz-transition all 0.5s ease
+				-o-transition all 0.5s ease
+				transition all 0.5s ease
+			a:hover
+				color violeta
+				background blanco
+				-webkit-transition all 0.5s ease
+				-moz-transition all 0.5s ease
+				-o-transition all 0.5s ease
+				transition all 0.5s ease
+
 				
 .Menu
 	opacity .8
 
 .Contenido-principal
-	background-image url('../img/cover.jpg')
-	background-repeat no-repeat
-	background-position center
+	background: url('../img/cover.jpg') 50% 50% no-repeat
 	background-size cover
-	height 650px
-	
+	height 100%
+	width 100%
 .Contenedor-zapatos
 	background-image url('../img/cover-zapatos.jpg')
 	background-repeat no-repeat
@@ -196,7 +208,7 @@ nav
 		height 60px
 		margin 2em 0 0 0
 		opacity .8
-		width 75%
+		width 100%
 		
 
 .Contenedor-pantalones
@@ -212,7 +224,7 @@ nav
 		height 60px
 		margin 2em 0 0 0
 		opacity .8
-		width 75%
+		width 100%
 		
 
 .Contenedor-trajes
@@ -228,7 +240,7 @@ nav
 		height 60px
 		margin 2em 0 0 0
 		opacity .8
-		width 75%
+		width 100%
 		
 .Contenedor-formasDepago
 	background-image url('../img/cover-tarjetas.jpg')
@@ -243,7 +255,7 @@ nav
 		height 60px
 		margin 2em 0 0 0
 		opacity .8
-		width 75%
+		width 100%
 		
 .Contenedor-aMedida
 	background-image url('../img/cover-amedida.jpg')
@@ -258,7 +270,7 @@ nav
 		height 60px
 		margin 2em 0 0 0
 		opacity .8
-		width 75%
+		width 100%
 		
 
 .Contenedor-cinturones
@@ -274,7 +286,7 @@ nav
 		height 60px
 		margin 2em 0 0 0
 		opacity .8
-		width 75%
+		width 100%
 		
 
 .Contenedor-eventos
@@ -290,8 +302,16 @@ nav
 		height 60px
 		margin 2em 0 0 0
 		opacity .8
-		width 75%
+		width 100%
 		
+@media screen and (min-width: 0px) and (max-width: 319px)	
+	.Contenedor-eventos
+		height 400px
+	.Eventos
+		.Cuerpo-especial
+			width 90%
+			.Contendio-eventos
+				padding 0 1em 0 1em
 
 .Contenedor-corbatas
 	background-image url('../img/cover-corbatas.jpg')
@@ -306,7 +326,7 @@ nav
 		height 60px
 		margin 2em 0 0 0
 		opacity .8
-		width 75%
+		width 90%100%
 		
 
 .Contenedor-condiciones
@@ -322,7 +342,7 @@ nav
 		height 60px
 		margin 2em 0 0 0
 		opacity .8
-		width 75%
+		width 100%
 		
 
 .Contenedor-camisas
@@ -338,7 +358,7 @@ nav
 		height 60px
 		margin 2em 0 0 0
 		opacity .8
-		width 75%
+		width 100%
 		
 
 .Eventos
@@ -368,6 +388,8 @@ nav
 	ul li
 		display inline-block
 		padding 0 .8em 0 .5em
+		a:hover
+			opacity .6
 		
 
 .Imagen
@@ -559,6 +581,192 @@ nav
 			margin 0 0 1em 0
 			padding 0 .3em 0 .3em
 			width auto
+			
+@media screen and (min-width: 0px) and (max-width: 319px)		
+	.Cuerpo
+		width 95%		
+	.Contenedor-zapatos
+		height 370px
+	.Contenido
+		flex-direction column
+		justify-content space-between
+		.Col1
+			width 100%
+			h2
+				text-align center
+		.Col2
+			width 100%
+			h2
+				text-align center
+		.Col3
+			width 100%
+			h2
+				text-align center
+		.Col4
+			width 100%
+			h2
+				text-align center				
+	.Tarjetas
+		margin 0
+		padding 0
+		
+	.Menu-internas
+		width 100%
+		ul
+			margin 2em 0 0 0
+			li
+				background negro
+				display block
+				line-height 26px
+				margin 0 0 .4em 0
+
+@media screen and (min-width: 320px) and (max-width: 479px)
+	.Contenedor-zapatos
+		height 370px		
+	.Cuerpo
+		width 95%		
+	.Contenido
+		flex-direction column
+		justify-content space-between
+		.Col1
+			width 100%
+			h2
+				text-align center
+		.Col2
+			width 100%
+			h2
+				text-align center
+		.Col3
+			width 100%
+			h2
+				text-align center
+		.Col4
+			width 100%
+			h2
+				text-align center
+	.Menu-internas
+		width 100%
+		ul
+			margin 2em 0 0 0
+			li
+				background negro
+				display block
+				line-height 26px
+				margin 0 0 .3em 0
+	.Emboltorio
+		a
+			background red
+				
+@media screen and (min-width: 480px) and (max-width: 759px)
+	.Cuerpo
+		width 95%
+	.Contenido
+		width 95%
+		.Col1
+			width 90%
+			h2
+				text-align center
+			img
+				height auto
+				width 90%
+		.Col2
+			width 90%
+			h2
+				text-align center
+			img
+				height auto
+				width 90%
+		.Col3
+			width 90%
+			h2
+				text-align center
+			img
+				height auto
+				width 90%
+		.Col4
+			width 90%
+			h2
+				text-align center
+			img
+				height auto
+				width 90%
+	.Menu-internas
+		width 100%
+		ul
+			margin 2em 0 0 0
+			li
+				background negro
+				display block
+				margin-bottom .2em
+				padding-bottom .5em
+				width 50%
+				
+				
+@media screen and (min-width: 760px) and (max-width: 1019px)
+		.Cuerpo
+			width 95%
+		.Contenido
+			width 90%
+			.Col1
+				padding 0 .7em 0 .7em
+				width 80%
+				img
+					height auto
+					width 100%
+			.Col2
+				padding 0 .7em 0 .7em
+				width 80%
+				img
+					height auto
+					width 100%
+			.Col3
+				padding 0 .7em 0 .7em
+				width 80%
+				img
+					height auto
+					width 100%
+			.Col4
+				padding 0 .7em 0 .7em
+				width 80%
+				img
+					height auto
+					width 100%
+		.Contenedor-menu
+			height 5rem
+			width 100%
+			img
+				margin 0
+				padding 0
+				
+@media screen and (min-width: 1020px) and (max-width: 1226px)
+	.Cuerpo
+		width 95%
+	.Contenido
+		width 96%
+		.Col1
+			img
+				height auto
+				width 100%
+		.Col2
+			img
+				height auto
+				width 100%
+		.Col3
+			img
+				height auto
+				width 100%
+		.Col4
+			img
+				height auto
+				width 100%
+	.Contenedor-zapatos
+		.Contenedor-menu
+			width 100%
+			img 
+				width 95%
+
+
+
 	
 .Pie
 	height auto
@@ -623,7 +831,32 @@ nav
 		font-weight normal
 		margin 0 0 1em 0
 		line-height 26px
-		
+@media screen and (min-width: 0px) and (max-width: 319px)	
+	.Contenido-condiciones
+		width 90%
+		p
+			width 100%
+@media screen and (min-width: 320px) and (max-width: 479px)
+	.Contenido-condiciones
+		width 90%
+		p
+			width 100%
+@media screen and (min-width: 480px) and (max-width: 759px)
+	.Contenido-condiciones
+		width 90%
+		p
+			width 100%
+@media screen and (min-width: 760px) and (max-width: 1019px)
+	.Contenido-condiciones
+		width 95%
+		p
+			width 100%	
+@media screen and (min-width: 1020px) and (max-width: 1226px)
+	.Contenido-condiciones
+		width 95%
+		p
+			width 100%
+
 
 .Imperial
 	margin 0 auto
@@ -749,3 +982,4 @@ nav
 		font-weight normal
 		text-align right
 		margin 0 1.5em 0 0
+		
