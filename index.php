@@ -34,6 +34,7 @@
 	</header> <!-- End of Header -->
 
 	<section class="Contenido-principal">	
+		
 		<section class="Columna-menu">
 			<ul>
 				<li><img src="img/logo.png" alt="Detali Sastreria Italiana"></li>

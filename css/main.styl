@@ -16,7 +16,6 @@ body
 	font-family 'Open Sans', sans-serif
 	font-size 16px
 	font-weight normal
-	height 100%
 	
 footer
 	height auto
@@ -1004,48 +1003,56 @@ nav
 		text-decoration none
 		
 .Contenido_zapatos
-	background: url('../img/bg-zapatos.jpg') 50% 50% no-repeat
+	background: url('../img/bg-zapatos.jpg')
+	background-repeat no-repeat
+	background-position center
 	background-size cover
 	height 650px
-	width 100%
 .Contenido_camisas
-	background: url('../img/bg-camisas.jpg') 50% 50% no-repeat
+	background: url('../img/bg-camisas.jpg')
+	background-repeat no-repeat
+	background-position center
 	background-size cover
 	height 650px
-	width 100%
 .Contenido_trajes
-	background: url('../img/bg-trajes.jpg') 50% 50% no-repeat
+	background-image url('../img/bg-trajes.jpg')
+	background-repeat no-repeat
+	background-position center
 	background-size cover
 	height 650px
-	width 100%
 .Contenido_corbatas
-	background: url('../img/bg-corbatas.jpg') 50% 50% no-repeat
+	background: url('../img/bg-corbatas.jpg')
+	background-repeat no-repeat
+	background-position center
 	background-size cover
 	height 650px
-	width 100%
 .Contenido_pantalones
-	background: url('../img/bg-pantalones.jpg') 50% 50% no-repeat
+	background: url('../img/bg-pantalones.jpg')
+	background-repeat no-repeat
+	background-position center
 	background-size cover
 	height 650px
-	width 100%
 .Contenido_accesorios
-	background: url('../img/bg-accesorios.jpg') 50% 50% no-repeat
+	background: url('../img/bg-accesorios.jpg')
+	background-repeat no-repeat
+	background-position center
 	background-size cover
 	height 650px
-	width 100%
 .Contenido_cinturones
-	background: url('../img/bg-cinturones.jpg') 50% 50% no-repeat
+	background: url('../img/bg-cinturones.jpg')
+	background-repeat no-repeat
+	background-position center
 	background-size cover
 	height 650px
-	width 100%
 .Contenido_sacos
-	background: url('../img/bg-sacos.jpg') 50% 50% no-repeat
+	background: url('../img/bg-sacos.jpg')
+	background-repeat no-repeat
+	background-position center
 	background-size cover
 	height 650px
-	width 100%
 .Contenido_logo
 	float right
-	padding 1em 0 0 0
+	padding .5em 0 0 0
 	&:hover
 		opacity 0.7
 .Titulos_grandes
@@ -1055,4 +1062,66 @@ nav
 	font-weight normal
 	padding 3em 0 0 0
 	text-align center
+	text-shadow 2px 2px 10px #000000
+	width 100%
+	
+.Subtitulos
+	height auto
+	line-height 40px
+	margin .3em 0 2em 0
+	text-align center
+	width 100%
+	a
+		color blanco
+		background #ffa500
+		border-radius 5px
+		-webkit-border-radius 3px
+		-moz-border-radius 3px
+		-o-border-radius 3px
+		-ms-border-radius 3px
+		padding 0 .5em 0 .5em
+		text-decoration none
+	a:hover
+		background #ffa777
+	p
+		color blanco
+		font-family 'Open Sans', sans-serif
+		font-weight 100
+
+header
+	span
+		color #ffa500
+.Centro
+	display -webkit-flex
+	display flex
+	justify-content center
+	margin 2.5em 0 0 0
+	width 100%
+	.Centro1
+		text-align center
+		width 20%
+	.Centro2
+		text-align center
+		width 20%
+	.Centro3
+		text-align center
+		width 20%
+	.Centro4
+		text-align center
+		width 20%
 		
+.Footer
+	height auto
+	margin 4.5em 0 0 0
+	text-align center
+	width 100%
+	a
+		color blanco
+	a:hover
+		text-decoration none
+	ul li
+		display inline-block
+		padding 0 .5em .5em .5em
+	p
+		color blanco
+		font-size .8em
