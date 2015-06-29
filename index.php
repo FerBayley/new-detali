@@ -17,15 +17,18 @@
 </head>
 <body>
 
+	<?php include("includes/preheader.php"); ?>
+
 	<header>
 		<nav>
 			<ul>
-				<li><a href="#">INICIO</a></li>
-				<li><a href="#">EVENTOS</a></li>
-				<li><a href="#">CONDICIONES</a></li>
+				<li>INICIO</li>
 				<li><a href="#">A MEDIDA</a></li>
-				<li><a href="#">QUIEN SOY</a></li>
+				<li><a href="#">EVENTOS</a></li>
 				<li><a href="#">FORMAS DE PAGO</a></li>
+				<li><a href="#">QUIENES SOMOS?</a></li>
+				<li><a href="#">CONDICIONES</a></li>
+				<li><a href="#">SHOWROOM</a></li>
 			</ul>
 		</nav> <!-- End of Nav -->
 	</header> <!-- End of Header -->
@@ -34,13 +37,14 @@
 		<section class="Columna-menu">
 			<ul>
 				<li><img src="img/logo.png" alt="Detali Sastreria Italiana"></li>
-				<li><a href="#">TRAJES</a></li>
-				<li><a href="#">CAMISAS</a></li>
-				<li><a href="#">ABRIGOS</a></li>
-				<li><a href="#">PANTALONES</a></li>
-				<li><a href="#">ZAPATOS</a></li>
-				<li><a href="#">CINTURONES</a></li>
-				<li><a href="#">ACCESOIOS</a></li>
+				<li><a href="trajes.php">TRAJES</a></li>
+				<li><a href="camisas.php">CAMISAS</a></li>
+				<li><a href="corbatas.php">CORBATAS</a></li>
+				<li><a href="pantalones.php">PANTALONES</a></li>
+				<li><a href="zapatos.php">ZAPATOS</a></li>
+				<li><a href="cinturones.php">CINTURONES</a></li>
+				<li><a href="accesorios.php">ACCESORIOS</a></li>
+				<li><a href="sacos.php">SACOS</a></li>
 			</ul>
 		</section> <!-- End of Columna-menu -->
 

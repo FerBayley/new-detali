@@ -2,12 +2,13 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Trajes - Ambos - Detali Sastreria Italiana</title>
+	<title>Accesorios - Detali Sastreria Italiana</title>
 	<meta name="description" content="">
 
 	<!-- VIEWPORT -->
 	<meta name="viewport" content="width=device-width, user-scalable=no"/>
 	<!-- VIEWPORT -->
+
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/normalize.css" />
@@ -19,17 +20,15 @@
 
 	<?php include("includes/header-interno.php"); ?>
 
-	<section class="Contenido_trajes">
+	<section class="Contenido_accesorios">
 		<section class="Contenido_logo">
 			<?php include("includes/logo-interno.php"); ?>
 		</section> <!-- End of Contenido_logo -->
 
 		<section class="Titulos_grandes">
-			<h1>Trajes Detalí</h1>
+			<h1>Accesorios Detalí</h1>
 		</section> <!-- End of Titulos_grandes -->
 	</section> <!-- End of Contendio_zapatos -->
-
-	
 	
 </body>
 </html>

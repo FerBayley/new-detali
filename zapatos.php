@@ -17,150 +17,18 @@
 </head>
 <body>
 
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#">INICIO</a></li>
-				<li><a href="#">EVENTOS</a></li>
-				<li><a href="#">CONDICIONES</a></li>
-				<li><a href="#">A MEDIDA</a></li>
-				<li><a href="#">QUIEN SOY</a></li>
-				<li><a href="#">FORMAS DE PAGO</a></li>
-			</ul>
-		</nav> <!-- End of Nav -->
-	</header> <!-- End of Header -->
-
-	
-	<section class="Contenedor-zapatos">
-		<div class="Contenedor-menu">
-			<div class="Imagen">
-				<img src="img/logo.png" alt="">
-			</div> <!-- End of Imagen -->
-
-			<div class="Menu-internas">
-				<ul>
-					<li><a href="">TRAJES</a></li>
-					<li><a href="">CAMISAS</a></li>
-					<li><a href="">PANTALONES</a></li>
-					<li><a href="">ZAPATOS</a></li>
-					<li><a href="">CORBATAS</a></li>
-					<li><a href="">CINTURONES</a></li>
-					<li><a href="">ACCESORIOS</a></li>
-				</ul>
-			</div> <!-- Menu -->
-		</div> <!-- Contenedor-menu -->
-	</section> <!-- End of Contenedor-zapatos -->
-
-	<section class="Cuerpo">
-		<h2>Zapatos</h2>
-	</section> <!-- End of Cuerpo -->
+	<?php include("includes/header-interno.php"); ?>
 
 
-	<section class="Contenido">
-		<div class="Col1">
-			<div class="Emboltorio">
-				<img src="img/zapatos/zapato-1.jpg" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<a href="#">CONSULTAR</a>
-			</div> <!-- End of Emboltorio -->
+	<section class="Contenido_zapatos">
+		<section class="Contenido_logo">
+			<?php include("includes/logo-interno.php"); ?>
+		</section> <!-- End of Contenido_logo -->
 
-			<div class="Emboltorio">
-				<img src="img/zapatos/zapato-1.jpg" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<a href="#">CONSULTAR</a>
-			</div> <!-- End of Emboltorio -->
-		</div> <!-- End of Col1 -->
-
-		<div class="Col2">
-			<div class="Emboltorio">
-				<img src="img/zapatos/zapato-1.jpg" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<a href="#">CONSULTAR</a>
-			</div> <!-- End of Emboltorio -->
-
-			<div class="Emboltorio">
-				<img src="img/zapatos/zapato-1.jpg" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<a href="#">CONSULTAR</a>
-			</div> <!-- End of Emboltorio -->
-		</div> <!-- End of Col2 -->
-
-		<div class="Col3">
-			<div class="Emboltorio">
-				<img src="img/zapatos/zapato-1.jpg" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<a href="#">CONSULTAR</a>
-			</div> <!-- End of Emboltorio -->
-
-			<div class="Emboltorio">
-				<img src="img/zapatos/zapato-1.jpg" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<a href="#">CONSULTAR</a>
-			</div> <!-- End of Emboltorio -->
-		</div> <!-- End of Col3 -->
-
-		<div class="Col4">
-			<div class="Emboltorio">
-				<img src="img/zapatos/zapato-1.jpg" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<a href="#">CONSULTAR</a>
-			</div> <!-- End of Emboltorio -->
-
-			<div class="Emboltorio">
-				<img src="img/zapatos/zapato-1.jpg" alt="">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-						<a href="#">CONSULTAR</a>
-			</div> <!-- End of Emboltorio -->
-		</div> <!-- End of Col4 -->
-	</section> <!-- End of Contenido -->
-
-	<section class="Pie">
-		<div class="Tarjetas">
-			<img src="img/tarjetas.jpg" alt="">
-		</div> <!-- End of Tarjetas -->
-
-		<div class="Redes-pie">
-			<ul>
-				<li>
-					<a href="">
-						<img src="img/facebook-interna.png" alt="">
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<img src="img/twitter-interna.png" alt="">
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<img src="img/pinterest-interna.png" alt="">
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<img src="img/instagram-interna.png" alt="">
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<img src="img/google-c.png" alt="">
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<img src="img/linkedin-c.png" alt="">
-					</a>
-				</li>
-			</ul>
-		</div> <!-- End of Redes-pie -->
-
-		<div class="Info">
-			<p>
-				Derechos reservados 2015  -  Av Roque Saenz Peña 615  -  Piso 5 Oficinas 512 - 
-				Tel: 4 328 9656 - sastreriadetali@detali.com
-			</p>
-		</div> <!-- End of Info -->
-	</section> <!-- End of Pie -->
+		<section class="Titulos_grandes">
+			<h1>Zapatos Detalí</h1>
+		</section> <!-- End of Titulos_grandes -->
+	</section> <!-- End of Contendio_zapatos -->
 
 	
 </body>
