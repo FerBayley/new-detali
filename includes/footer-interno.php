@@ -9,7 +9,6 @@
 			<li><a href="zapatos.php">ZAPATOS</a></li>
 			<li><a href="cinturones.php">CINTURONES</a></li>
 			<li><a href="accesorios.php">ACCESORIOS</a></li>
-			<li><a href="sacos.php">SACOS</a></li>
 		</ul>
 	</nav> <!-- End of Nav -->
 </header> <!-- End of Header -->

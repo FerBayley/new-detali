@@ -3,18 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Sacos - Detali Sastreria Italiana</title>
-	<meta name="description" content="">
+	<meta name="description" content="Sastreria de hombres estilo Italia ubicada en centro porteño con años de trayectoria vistiendo al hombre moderno">
 
 	<!-- VIEWPORT -->
 	<meta name="viewport" content="width=device-width, user-scalable=no"/>
 	<!-- VIEWPORT -->
-
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/animate.css" /> 
 	<!-- CSS -->
+
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="favicon.ico" />
+	<!-- FAVICON -->
 
 </head>
 <body>
@@ -51,6 +54,8 @@
 		<?php include("includes/footer.php"); ?>
 	</section> <!-- End of Contendio_zapatos -->
 	<?php include("includes/header-interno.php"); ?>
+
+	<script src="js/modernizr.custom.32037"></script>
 	
 </body>
 </html>

@@ -3,17 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Pablo Anta - Detali Sastreria Italiana</title>
-	<meta name="description" content="">
+	<meta name="description" content="Sastreria de hombres estilo Italia ubicada en centro porteño con años de trayectoria vistiendo al hombre moderno">
 
 	<!-- VIEWPORT -->
 	<meta name="viewport" content="width=device-width, user-scalable=no"/>
 	<!-- VIEWPORT -->
 
-
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<!-- CSS -->
+
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="favicon.ico" />
+	<!-- FAVICON -->
 
 </head>
 <body>
@@ -104,7 +107,7 @@
 		</div>
 	</section> <!-- End of Pie-pablo -->
 
-		
+	<script src="js/modernizr.custom.32037"></script>
 	
 </body>
 </html>

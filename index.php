@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Detali Sastreria Italiana</title>
-	<meta name="description" content="">
+	<meta name="description" content="Sastreria de hombres estilo Italia ubicada en centro porteño con años de trayectoria vistiendo al hombre moderno">
 
 	<!-- VIEWPORT -->
 	<meta name="viewport" content="width=device-width, user-scalable=no"/>
@@ -14,23 +14,17 @@
 	<link rel="stylesheet" href="css/main.css" />
 	<!-- CSS -->
 
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="favicon.ico" />
+	<!-- FAVICON -->
+
 </head>
 <body>
 
 	<?php include("includes/preheader.php"); ?>
 
 	<header>
-		<nav>
-			<ul>
-				<li>INICIO</li>
-				<li><a href="#">A MEDIDA</a></li>
-				<li><a href="#">EVENTOS</a></li>
-				<li><a href="#">FORMAS DE PAGO</a></li>
-				<li><a href="#">QUIENES SOMOS?</a></li>
-				<li><a href="#">CONDICIONES</a></li>
-				<li><a href="#">SHOWROOM</a></li>
-			</ul>
-		</nav> <!-- End of Nav -->
+		<?php include("includes/header-interno.php"); ?>
 	</header> <!-- End of Header -->
 
 	<section class="Contenido-principal">	
@@ -45,7 +39,6 @@
 				<li><a href="zapatos.php">ZAPATOS</a></li>
 				<li><a href="cinturones.php">CINTURONES</a></li>
 				<li><a href="accesorios.php">ACCESORIOS</a></li>
-				<li><a href="sacos.php">SACOS</a></li>
 			</ul>
 		</section> <!-- End of Columna-menu -->
 
@@ -85,6 +78,8 @@
 			</p>
 		</footer> <!-- End of Footer -->
 	</section> <!-- End of Contenido-principal -->
+
+	<script src="js/modernizr.custom.32037"></script>
 	
 </body>
 </html>
