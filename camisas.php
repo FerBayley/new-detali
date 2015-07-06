@@ -21,6 +21,7 @@
 
 </head>
 <body>
+	<?php include_once("includes/analyticstracking.php") ?>
 	<?php include("includes/footer-interno.php"); ?>
 	<section class="Contenido_camisas">
 		<section class="Contenido_logo">

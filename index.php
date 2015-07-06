@@ -21,6 +21,7 @@
 </head>
 <body>
 
+	<?php include_once("includes/analyticstracking.php") ?>
 	<?php include("includes/preheader.php"); ?>
 
 	<header>

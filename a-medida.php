@@ -20,10 +20,14 @@
 
 </head>
 <body>
+	
+	<?php include_once("includes/analyticstracking.php") ?>
 	<?php include("includes/header-interno.php"); ?>
 
 	<section class="Logus">
-		<img src="img/logo.png" alt="">
+		<a href="index.php">
+			<img src="img/logo.png" width="178" height="63" alt="Detali sastreria Italiana">
+		</a>
 	</section>
 
 	<section class="Sastreria">

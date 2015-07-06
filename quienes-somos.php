@@ -20,7 +20,7 @@
 
 </head>
 <body>
-
+	<?php include_once("includes/analyticstracking.php") ?>
 	<header>
 		<nav>
 			<ul>
