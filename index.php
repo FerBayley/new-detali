@@ -14,6 +14,8 @@
 	<link rel="stylesheet" href="css/main.css" />
 	<!-- CSS -->
 
+	<!-- JS --><!-- JS -->
+
 	<!-- FAVICON -->
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- FAVICON -->
@@ -22,7 +24,7 @@
 <body>
 
 	<?php include_once("includes/analyticstracking.php") ?>
-	<?php include("includes/preheader.php"); ?>
+	<?php include_once("includes/preheader.php") ?>
 
 	<header>
 		<?php include("includes/header-interno.php"); ?>
@@ -46,27 +48,30 @@
 		<section class="Redes">
 			<ul>
 				<li>
-					<a href="https://www.facebook.com/SastreriaDetali">
+					<a href="https://www.facebook.com/SastreriaDetali" target="_blank">
 						<img src="img/facebook.png" alt="Facebook">
 					</a>
 				</li>
 				<li>
-					<a href="https://twitter.com/DetaliSastreria">
+					<a href="https://twitter.com/DetaliSastreria" target="_blank">
 						<img src="img/twitter.png" alt="Seguinos en Twitter">
 					</a>
 				</li>
 				<li>
-					<a href="https://www.pinterest.com/detali">
+					<a href="https://www.pinterest.com/detali" target="_blank">
 						<img src="img/pinterest.png" alt="Mira nuestras imagenes en Pinterest">
 					</a>
 				</li>
 				<li>
-					<a href="https://instagram.com/detalisastreria/">
+					<a href="https://instagram.com/detalisastreria/" target="_blank">
 						<img src="img/instagram.png" alt="Instagram">
 					</a>
 				</li>
-				<li><a href="#"><img src="img/google-a.png" alt="Google plus"></a></li>
-				<li><a href="#"><img src="img/linkedin.png" alt="Linkedin"></a></li>
+				<li>
+					<a href="https://ar.linkedin.com/in/detali" target="_blank">
+						<img src="img/linkedin.png" alt="Linkedin">
+					</a>
+				</li>
 			</ul>
 		</section> <!-- End of Redes -->
 
@@ -80,7 +85,8 @@
 		</footer> <!-- End of Footer -->
 	</section> <!-- End of Contenido-principal -->
 
-	<script src="js/modernizr.custom.32037"></script>
+	<script src="js/modernizr.custom.32037.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	
 </body>
 </html>

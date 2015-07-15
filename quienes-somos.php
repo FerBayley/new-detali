@@ -22,16 +22,7 @@
 <body>
 	<?php include_once("includes/analyticstracking.php") ?>
 	<header>
-		<nav>
-			<ul>
-				<li><a href="#">INICIO</a></li>
-				<li><a href="#">EVENTOS</a></li>
-				<li><a href="#">CONDICIONES</a></li>
-				<li><a href="#">A MEDIDA</a></li>
-				<li><a href="#">QUIEN SOY</a></li>
-				<li><a href="#">FORMAS DE PAGO</a></li>
-			</ul>
-		</nav> <!-- End of Nav -->
+		<?php include("includes/header-interno.php"); ?>
 	</header> <!-- End of Header -->
 
 	<section class="Perfil-pablo">
