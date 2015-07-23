@@ -30,16 +30,25 @@
 	</section>
 
 	<section class="Sastreria">
-		<h2>Showroom</h2>
-		
-		<h2>Estamos desarrollando esta secci&oacute;n...</h2>
+		<h2>Ven&iacute; a conocer nuestro showroom</h2>		
+		<section class="ShowRoom">
+			<img src="img/showroom.jpg" width="1500" height="431" alt="Showroom de Detali">
+		</section> <!-- End of ShowRoom -->
 
 
-	<template>		
+		<section class="GaleriaShowRoom">
+			<ul>
+				<li><img src="img/showroom/show1" width="605" height="454" alt="Showroom Detali"></li>
+				<li><img src="img/showroom/show2" width="605" height="454" alt="Showroom Detali"></li>
+				<li><img src="img/showroom/show3" width="605" height="454" alt="Showroom Detali"></li>
+				<li><img src="img/showroom/show4" width="605" height="454" alt="Showroom Detali"></li>
+			</ul>
+		</section> <!-- End of GaleriaShowRoom -->
+
+
 		<section class="Pie_internas">
 			<?php include("includes/footer-internas.php"); ?>
 		</section> <!-- End of Pie_internas -->
-	</template>
 
 	<script src="js/modernizr.custom.32037"></script>
 	
