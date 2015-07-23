@@ -38,10 +38,10 @@
 
 		<section class="GaleriaShowRoom">
 			<ul>
-				<li><img src="img/showroom/show1" width="605" height="454" alt="Showroom Detali"></li>
-				<li><img src="img/showroom/show2" width="605" height="454" alt="Showroom Detali"></li>
-				<li><img src="img/showroom/show3" width="605" height="454" alt="Showroom Detali"></li>
-				<li><img src="img/showroom/show4" width="605" height="454" alt="Showroom Detali"></li>
+				<li><img src="img/showroom/show1.jpg" width="605" height="454" alt="Showroom Detali"></li>
+				<li><img src="img/showroom/show2.jpg" width="605" height="454" alt="Showroom Detali"></li>
+				<li><img src="img/showroom/show3.jpg" width="605" height="454" alt="Showroom Detali"></li>
+				<li><img src="img/showroom/show4.jpg" width="605" height="454" alt="Showroom Detali"></li>
 			</ul>
 		</section> <!-- End of GaleriaShowRoom -->
 
