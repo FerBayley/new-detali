@@ -14,14 +14,25 @@
 	<link rel="stylesheet" href="css/main.css" />
 	<!-- CSS -->
 
-	<!-- JS --><!-- JS -->
-
 	<!-- FAVICON -->
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- FAVICON -->
 
+	<script type="text/javascript">
+		function closeVentana(){
+			$('.Ventana').fadeOut("slow");
+		}
+	</script>
+
 </head>
 <body>
+
+	<div class="Ventana">
+		<div class="Ventana_imagen">
+			<img src="img/promo.jpg" alt="Promociones Detali">		
+				<div class="Cerrar"><a href="javascript:closeVentana();">CERRAR VENTANA</a></div> <!-- End of Cerrar -->
+		</div> <!-- End of Ventana_imagen -->
+	</div> <!-- End of Ventana -->
 
 	<?php include_once("includes/analyticstracking.php") ?>
 	<?php include_once("includes/preheader.php") ?>
@@ -87,6 +98,7 @@
 
 	<script src="js/modernizr.custom.32037.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/ventana.js"></script>
 	
 </body>
 </html>
