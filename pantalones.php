@@ -12,12 +12,15 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/animate.css" />
 	<!-- CSS -->
 
 	<!-- FAVICON -->
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- FAVICON -->
+
+	<script src="js/modernizr.custom.32037"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/slide.js"></script>
 
 
 </head>
@@ -38,31 +41,15 @@
 		</section> <!-- End of Subtitulos -->
 
 		<section class="Centro">
-			<div class="Centro1">
-				<div class="animated fadeInUp">
-					<img src="img/pantalones/pantalon1.png" width="230" height="230" alt="Pantalones Detali">
-						<p>GABARDINA BEIGE</p>
-				</div>
-			</div> <!-- End of Centro1 -->
-			<div class="Centro2">
-				<div class="animated fadeInDown">
-					<img src="img/pantalones/pantalon2.png" width="230" height="230" alt="Pantalones Detali">
-						<p>GABARDINA AZUL</p>
-				</div>
-			</div> <!-- End of Centro2 -->
-			<div class="Centro3">
-				<div class="animated fadeInUp">
-					<img src="img/pantalones/pantalon3.png" width="230" height="230" alt="Pantalones Detali">
-						<p>PANTALON DE VESTIR</p>
-				</div>
-			</div> <!-- End of Centro3 -->
-		</section> <!-- Centro -->
+			<div class="Slider">
+				<div><img src="img/centros/pantalones/pantalones-1.png" alt="Pantalones Detali"></div>
+				<div><img src="img/centros/pantalones/pantalones-2.png" alt="Pantalones Detali"></div>
+			</div> <!-- End of Slider -->
+		</section> <!-- End of Centro -->
 
 		<?php include("includes/footer.php"); ?>
 	</section> <!-- End of Contendio_pantalones -->
 	<?php include("includes/header-interno.php"); ?>
-
-	<script src="js/modernizr.custom.32037"></script>
 	
 </body>
 </html>

@@ -12,12 +12,15 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/animate.css" />
 	<!-- CSS -->
 
 	<!-- FAVICON -->
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- FAVICON -->
+
+	<script src="js/modernizr.custom.32037"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/slide.js"></script>
 
 
 </head>
@@ -36,31 +39,17 @@
 		<?php include("includes/contacto.php"); ?>
 
 		<section class="Centro">
-			<div class="Centro1">
-				<div class="animated fadeInUp">
-					<img src="img/trajes/100.png" width="230" height="230" alt="Trajes super 100">
-						<p>AMBOS 100´s</p>
-				</div>
-			</div> <!-- End of Centro1 -->
-			<div class="Centro2">
-				<div class="animated fadeInDown">
-					<img src="img/trajes/120.png" width="230" height="230" alt="Trajes super 120">
-						<p>AMBOS 120´s</p>
-				</div>
-			</div> <!-- End of Centro2 -->
-			<div class="Centro3">
-				<div class="animated fadeInUp">
-					<img src="img/trajes/130.png" width="230" height="230" alt="Trajes super 130">
-						<p>AMBOS 130´s</p>
-				</div>
-			</div> <!-- End of Centro3 -->
-		</section> <!-- Centro -->
+			<div class="Slider">
+				<div><img src="img/centros/ambos/100/100-1.png" alt="Ambos 100s Detali"></div>
+				<div><img src="img/centros/ambos/120/120-1.png" alt="Ambos 120s Detali"></div>
+				<div><img src="img/centros/ambos/130/130-1.png" alt="Ambos 130s Detali"></div>
+				<div><img src="img/centros/ambos/130/130-2.png" alt="Ambos 130s Detali"></div>
+			</div> <!-- End of Slider -->
+		</section> <!-- End of Centro -->
 		
 		<?php include("includes/footer.php"); ?>
 	</section> <!-- End of Contendio_trajes -->
 	<?php include("includes/header-interno.php"); ?>
 
-	<script src="js/modernizr.custom.32037"></script>
-	
 </body>
 </html>

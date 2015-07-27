@@ -9,16 +9,18 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no"/>
 	<!-- VIEWPORT -->
 
-
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/animate.css" />
 	<!-- CSS -->
 
 	<!-- FAVICON -->
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- FAVICON -->
+
+	<script src="js/modernizr.custom.32037"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/slide.js"></script>
 
 </head>
 <body>
@@ -38,28 +40,17 @@
 		</section> <!-- End of Subtitulos -->
 
 		<section class="Centro">
-			<div class="Centro1">
-				<div class="animated fadeInUp"><img src="img/corbatas/yvessaintlaurent.png" width="230" height="230" alt="Corbatas Yves Saint Laurent">
-					<p>Yves Saint Laurent</p>
-				</div>
-			</div> <!-- End of Centro1 -->
-			<div class="Centro2">
-				<div class="animated fadeInDown"><img src="img/corbatas/christianlacroix.png" width="230" height="230" alt="Corbatas Christian Lacroix">
-					<p>Christian Lacroix</p>
-				</div>
-			</div> <!-- End of Centro2 -->
-			<div class="Centro3">
-				<div class="animated fadeInUp"><img src="img/corbatas/redaelli.png" width="230" height="230" alt="Corbatas Redaelli">
-					<p>G. Redaelli seda italiana</p>
-				</div>
-			</div> <!-- End of Centro3 -->
-		</section> <!-- Centro -->
+			<div class="Slider">
+				<div><img src="img/centros/corbatas/corbatas-1.png" alt="Corbatas Detali"></div>
+				<div><img src="img/centros/corbatas/corbatas-2.png" alt="Corbatas Detali"></div>
+				<div><img src="img/centros/corbatas/corbatas-3.png" alt="Corbatas Detali"></div>
+				<div><img src="img/centros/corbatas/corbatas-4.png" alt="Corbatas Detali"></div>
+			</div> <!-- End of Slider -->
+		</section> <!-- End of Centro -->
 
 		<?php include("includes/footer.php"); ?>
 	</section> <!-- End of Contendio_corbatas -->
 	<?php include("includes/header-interno.php"); ?>
-
-	<script src="js/modernizr.custom.32037"></script>
 	
 </body>
 </html>

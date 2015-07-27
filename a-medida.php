@@ -87,7 +87,7 @@
 		</article>
 
 		<div class="Terjetas">
-			<img src="img/tarjetas.jpg" alt="">
+			<img src="img/tarjetas.jpg" alt="Tarjeta Detali">
 		</div> <!-- End of Tarjetas -->
 	</section> <!-- End of Sastreria -->
 

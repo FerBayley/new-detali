@@ -13,12 +13,15 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/animate.css" />
 	<!-- CSS -->
 
 	<!-- FAVICON -->
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- FAVICON -->
+
+	<script src="js/modernizr.custom.32037"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/slide.js"></script>
 
 </head>
 <body>
@@ -38,27 +41,13 @@
 		</section> <!-- End of Subtitulos -->
 
 		<section class="Centro">
-			<div class="Centro1">
-				<div class="animated fadeInUp"><img src="img/cinturones/cuero.png" width="230" height="230" alt="Cinturon de cuero vacuno">
-					<p>CUERO</p>
-				</div>
-			</div> <!-- End of Centro1 -->
-			<div class="Centro2">
-				<div class="animated fadeInDown"><img src="img/cinturones/coco.png" width="230" height="230" alt="Cinturon simil cocodrilo">
-					<p>SIMIL COCODRILO</p>
-				</div>
-			</div> <!-- End of Centro2 -->
-			<div class="Centro3">
-				<div class="animated fadeInUp"><img src="img/cinturones/charol.png" width="230" height="230" alt="Cinturon de charol">
-					<p>CHAROL</p>
-				</div>
-			</div> <!-- End of Centro3 -->
-			<div class="Centro4">
-				<div class="animated fadeInDown"><img src="img/cinturones/gamuza.png" width="230" height="230" alt="Cinturon de gamuza">
-					<p>GAMUZA (varios colores)</p>
-				</div>
-			</div> <!-- End of Centro4 -->
-		</section> <!-- Centro -->
+			<div class="Slider">
+				<div><img src="img/centros/cintos/cinturones-1.png" alt="Cinturones Detali"></div>
+				<div><img src="img/centros/cintos/cinturones-2.png" alt="Cinturones Detali"></div>
+				<div><img src="img/centros/cintos/cinturones-3.png" alt="Cinturones Detali"></div>
+				<div><img src="img/centros/cintos/cinturones-4.png" alt="Cinturones Detali"></div>
+			</div> <!-- End of Slider -->
+		</section> <!-- End of Centro -->
 
 		<?php include("includes/footer.php"); ?>
 	</section> <!-- End of Contendio_zapatos -->
